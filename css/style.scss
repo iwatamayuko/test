@@ -1,0 +1,166 @@
+$top-color: #707070;
+$title-color: #ffffff;
+$font-color: #3B3B3B;
+
+.wrap {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+/* header */
+.header-top {
+  width: 1339px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 32px;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    font-size: 3.5rem;
+    color: $top-color;
+    border: solid 1px #707070;
+    // padding: 16px 80px 16px 62px;
+  }
+}
+
+.gnav__list {
+  width: 447px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainvisual {
+  img {
+    width: 100%;
+    margin-top: 45px;
+    position: relative;
+  }
+}
+
+/* main */
+.mainvisual__box {
+  width: 676px;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+
+  h2 {
+    color: $title-color;
+    font-size: 6.7rem;
+  }
+
+  p {
+    color: $title-color;
+    font-size: 2.1rem;
+  }
+}
+
+.concept {
+  margin-top: 93px;
+}
+
+.concepts {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contents__item {
+  width: 375px;
+
+  img {
+    width: 100%;
+  }
+
+  p {
+    color: $font-color;
+  }
+}
+
+/* main product */
+.product {
+  margin-top: 200px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1314px;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+
+    img {
+      width: 630px;
+      height: 400px;
+    }
+
+    &__box{
+      width: 639px;
+      flex-flow: row-reverse;
+
+      h3 {
+        text-align: center;
+        font-size: 2.6rem;
+        color: $font-color;
+        margin-bottom: 40px;
+      }
+    }
+    &__text {
+      color: $font-color;
+      line-height: 2.5;
+    }
+  }
+}
+
+/* news */
+h4 {
+  font-size: 2rem;
+  color: $font-color;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 69px;
+}
+
+.news {
+  margin-top: 56px;
+  width: 873px;
+  margin: 0 auto;
+  margin-bottom: 169px;
+
+
+  &__item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #DEDEDE;
+    padding: 20.5px 0;
+
+    &__ttl {
+      margin-left: 60px;
+      font-size: 1.4rem;
+    }
+
+    &__date {
+      color: #707070;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+/* banner */
+.banner {
+  width: 1330px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 206px;
+}
+
+/* footer */
+.contact {
+  height: 289px;
+  background-color: #EBEBEB;
+  display: flex;
+}
